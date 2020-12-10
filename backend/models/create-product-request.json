@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "create product",
+  "type": "object",
+  "properties": {
+    "productName": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "price": {
+      "type": "number"
+    },
+    "size": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "productName",
+    "price"
+  ],
+  "additionalProperties": true
+}
